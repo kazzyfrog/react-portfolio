@@ -34,3 +34,10 @@ export const SOCIAL = {
   twitter: "#",
   blog: "#",
 };
+
+// URL: https://kazzyfrog.github.io/react-portfolio
+// URL: https://<あなたのアカウント名>.github.io/<あなたの公開したいリポジトリ名>
+export const BASE_URL =
+  import.meta.env.MODE === "production"
+    ? "https://kazzyfrog.github.io/react-portfolio"
+    : "";
